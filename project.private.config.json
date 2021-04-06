@@ -12,8 +12,8 @@
     "miniprogram": {
       "list": [
         {
-          "name": "pages/confession/confession",
-          "pathName": "pages/confession/confession",
+          "name": "pages/commentDetail/commentDetail",
+          "pathName": "pages/commentDetail/commentDetail",
           "scene": null
         }
       ]

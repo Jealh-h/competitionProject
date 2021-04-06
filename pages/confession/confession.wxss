@@ -32,7 +32,6 @@ page {
   justify-content: space-around;
   align-items: center;
   height: 2.5rem;
-  border-top: 2rpx solid #000;
 }
 .confe_toolbar view {
   flex: 1;

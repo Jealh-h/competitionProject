@@ -4,11 +4,14 @@
     <view class="confe_content">
       <userHeader userName="jealh" postTime="2021-12-30 20:12:33"></userHeader>
       <view class="confe_content_main">
+        <!-- 文字内容 -->
         <view class="content_text">
           Ant Design 的色板还具备进一步拓展的能力。经过设计师和程序员的精心调制，结合了色彩自然变化的规律，我们得出了一套色彩生成工具，当有进一步色彩设计需求时，设计者只需按照一定规则定义完毕主色，便可以自动获得一系列完整的衍生色。
         </view>
+        <!-- 图片内容 -->
       </view>
     </view>
+    <!-- 点赞·评论 -->
   <view class="confe_toolbar">
     <view bindtap="handleLike" class="iconfont {{isLike?'icon-liked':'icon-like'}}">{{299}}</view>
     <view>
