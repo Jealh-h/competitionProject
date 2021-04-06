@@ -1,0 +1,45 @@
+/* pages/confession.wxss */
+page {
+  height: 100vh;
+  width: 100vw;
+  background-color: #f0f0f0;
+}
+.confe_container {
+  width: 100%;
+  height: 100%;
+}
+.confe_item {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 30vh;
+  margin: 0.5rem 0;
+  background-color: #fff;
+}
+
+.confe_content_main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 0.8rem;
+}
+.confe_content_main .content_text {
+  width: 90%;
+  padding: 0.5rem 0;
+}
+.confe_toolbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 2.5rem;
+  border-top: 2rpx solid #000;
+}
+.confe_toolbar view {
+  flex: 1;
+  height: 2rem;
+  line-height: 2rem;
+  text-align: center;
+}
+.confe_toolbar view:nth-child(1){
+  border-right: 1px solid #000;
+}

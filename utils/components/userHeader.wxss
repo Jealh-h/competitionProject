@@ -1,0 +1,25 @@
+/* utils/components/userHeader.wxss */
+.user_header {
+  height: 2.5rem;
+  display: flex;
+  padding: 0.5rem;
+}
+.user_header .user_avatar_box {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 2.5rem;
+  background-color: pink;
+}
+.user_header .user_detail {
+  margin-left: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.user_header .user_detail .user_name {
+  font-weight: 550;
+}
+.user_header .user_detail .post_time {
+  font-size: 0.8rem;
+  color: #dedede;
+}

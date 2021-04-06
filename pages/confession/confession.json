@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "userHeader":"../../utils/components/userHeader"
+  },
+  "navigationBarTitleText": "告白墙"
+}

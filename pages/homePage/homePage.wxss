@@ -1,0 +1,50 @@
+/* pages/homePage/homePage.wxss */
+.container{
+  height:100%;
+  margin-top: 10px;
+
+}
+#turnImageArea{
+  margin-top: 10px;
+  width: 100%;
+  height: 100px;
+  background-color: aqua;
+}
+#lost_confessionArea{
+  margin: 20px;
+  width: 100%;
+  display: inline-flex;
+  /* justify-content: space-around; */
+  background-color: aquamarine;
+  padding: 10px;
+  justify-content: space-evenly;
+}
+.lost{
+  width: 100px;
+  height: 100px;
+  background-color: azure;
+}
+.confession{
+  width: 100px;
+  height: 100px;
+  background-color: bisque;
+}
+#vehicle_parcel{
+  margin-top: 20px;
+  width: 100%;
+  display: inline-flex;
+  /* justify-content: space-around; */
+  background-color: aquamarine;
+  padding: 10px;
+  justify-content: space-evenly;
+}
+.vehicle{
+  width: 100px;
+  height: 100px;
+  background-color: azure;
+}
+.parcel{
+  width: 100px;
+  height: 100px;
+  background-color: bisque;
+}

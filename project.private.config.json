@@ -1,0 +1,22 @@
+{
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/confession/confession",
+          "pathName": "pages/confession/confession",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

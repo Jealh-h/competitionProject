@@ -1,0 +1,25 @@
+<!--pages/homePage/homePage.wxml-->
+<view class="container">
+  <view id='turnImageArea'>
+    <text>轮播图</text>
+  </view>
+  <!-- 告白墙 失物招领 -->
+  <view id='lost_confessionArea'>
+    <view class='lost'> 
+        失物
+    </view>
+    <view class='confession'>
+      <navigator url="../confession/confession">告白墙</navigator>
+    </view>
+
+  </view>
+  <!-- 搭乘 快递代取 -->
+  <view id='vehicle_parcel'>
+    <view class='vehicle'>
+
+    </view>
+    <view class='parcel'>
+
+    </view>
+  </view>
+</view>

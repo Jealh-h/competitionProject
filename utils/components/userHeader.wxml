@@ -1,0 +1,12 @@
+<!-- 公用的userHeader组件 -->
+<!-- 需要传入的props有：
+  userAvatar:头像url
+  userName: 用户昵称
+  postName: 发帖时间 -->
+<view class="user_header">
+  <view class="user_avatar_box"></view>
+  <view class="user_detail">
+    <view class="user_name">{{userName}}</view>
+    <view class="post_time">{{postTime}}</view>
+  </view>
+</view>
